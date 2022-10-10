@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net472</TargetFramework>
+        <Nullable>disable</Nullable>
+        <UseWPF>true</UseWPF>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Compile Update="OpenFileDialogNew.xaml.cs">
+        <DependentUpon>OpenFileDialogNew.xaml</DependentUpon>
+      </Compile>
+    </ItemGroup>
+
+</Project>
